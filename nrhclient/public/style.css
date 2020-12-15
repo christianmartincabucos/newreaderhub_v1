@@ -1,0 +1,343 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+@media only screen and (max-width: 680px) {
+    .div-phone2 {
+        display: block;
+    }
+    .user-profile {
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .phone1 {
+        height: 100% !important;
+        float: none !important;
+        width: 250px;
+        max-width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+    .phone2 {
+        height: 100% !important;
+        width: 90% !important;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    html, body, header, .intro-2 {
+        height: 980px;
+    }
+}
+.error {
+    color: red;
+    font-size: 0.8rem;
+    border-color: red;
+}
+
+.dirty {
+    border-color: #5A5;
+    background: #EFE;
+}
+
+.dirty:focus {
+    outline-color: #8E8;
+}
+
+.error:focus {
+    outline-color: #F99;
+}
+.nrh-lp .btn.pink-gradient {
+    background: linear-gradient(to right, #EF5C5B, #EC6953, #EC6953);
+}
+
+.nrh-lp .btn-white {
+    color: #fb5364 !important;
+}
+
+.nrh-lp .navbar {
+    background-color: dimgray;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+
+.phone1 {
+    height: 550px;
+}
+
+.phone2 {
+    height: 50%;
+    width: 70%;
+}
+
+.light-red-text {
+    color: #EC6953;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.text-midgray {
+    color: #ffffffb3;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    border-radius: 5px;
+}
+
+.footer-copyright {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.navbar-dark {
+    background: #7D7D7D !important;
+    border-bottom: 1px solid dimgray;
+}
+
+.btn-dimgray {
+    background-color: dimgray;
+}
+
+.tabs-dark, .card-dark {
+    background: #242526 !important;
+}
+
+.classic-tabs .nav li a:hover {
+    background: dimgray;
+    border-radius: 5px;
+}
+
+.classic-tabs .nav li a.active {
+    color: #EF5C5B;
+    border-bottom: 3px solid #EF5C5B;
+}
+
+.classic-tabs hr {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.3rem !important;
+    background-color: dimgray;
+}
+
+.classic-tabs .nav li:first-child {
+    margin-left: 0px !important;
+}
+
+.avatar .nav-link {
+    background: #d3d3d30d !important;
+}
+
+.dark {
+    background: #242526 !important;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+body {
+    background: #E1E1E1 !important;
+    font-family: 'MontserratRegular' !important;
+font-weight: 100!important;
+}
+
+.tab-content {
+    padding: 0rem !important;
+}
+
+.form-control {
+    border: 0px !important;
+    /* border-radius: 20px !important; */
+    background-color: #CCCCCC !important;
+    color: #000 !important;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.tab {
+    float: left;
+    border: 1px solid #242526;
+    background-color: #242526;
+    width: 30%;
+    height: 300px;
+    border-radius: 7px;
+}
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 10px 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 7px;
+}
+
+.tab button:hover {
+    background-color: #3a3b3c;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
+
+header, main, footer, section {
+    padding-left: 220px;
+}
+
+@media only screen and (max-width: 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    /* .navbar.scrolling-navbar {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    } */
+    .side-nav {
+        z-index: 0;
+        box-shadow: none !important;
+        padding-top: 75px;
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main{
+        padding-left: 1.5rem !important;
+    }
+    .side-nav {
+        z-index: 1000 !important;
+        display: none !important;
+    }
+    .box {
+        width: 40% !important;
+        margin-right: 1.5rem !important;
+    }
+}
+
+.side-nav .collapsible a {
+    height: 36px;
+    font-size: 1rem !important;
+    font-weight: 300;
+    line-height: 36px;
+    color: #000 !important
+}
+
+.collapsible>li {
+    padding-left: 5px !important;
+}
+
+.side-nav .collapsible>li a.collapsible-header.active, .side-nav .collapsible>li a.collapsible-header:hover {
+    background-color: #CCCCCC !important;
+}
+
+.side-nav .logo-wrapper img {
+    height: auto;
+    padding: 0px !important;
+}
+
+.logo-wrapper {
+    height: 8.75rem;
+    border-bottom: 0px !important;
+}
+
+.logo-wrapper a {
+    width: 15rem;
+    height: 8.75rem;
+}
+
+.side-profile {
+    padding: 10px 0px 0px 10px !important;
+    margin-bottom: 50px;
+}
+
+@media (max-height: 992px) {
+    .side-nav .logo-wrapper, .side-nav .logo-wrapper a {
+        height: 120px !important;
+    }
+}
+
+.profile-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.sidenav-bg::after {
+    background: #E1E1E1 !important;
+}
+
+#sidenav-overlay {
+    background-color: transparent !important;
+}
+.card{
+    width: 100% !important;
+}
+.card-wrapper .avatar img {
+    width: 140px !important;
+    background: #fff;
+    border: 5px solid #fff;
+    height: 130px !important;
+}
+
+.card-wrapper {
+    margin-top: 72px !important;
+    /* width: 100% !important; */
+}
+
+.side-nav .logo-wrapper img {
+    height: 63px !important;
+    width: 60px !important;
+    padding: 0px !important;
+}
+
+.card-darkgray {
+    background-color: #D7D7D7 !important;
+}
+
+.card-gray {
+    background-color: #B7B7B7 !important;
+    /* padding: 5px; */
+}
+
+.dimgrey {
+    background-color: #E1E1E1 !important;
+}
+
+.card-body, .card-header, .card-footer {
+    /* padding: 0.5rem !important; */
+    border: 0px !important;
+}
+/* .card-header{
+    background-color: #f8f9fa!important;
+} */
+.card-radius {
+    border-radius: 0.5rem !important;
+}
+
+.container-padding {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.br-half{
+    border-radius: 0.50rem!important;
+}
